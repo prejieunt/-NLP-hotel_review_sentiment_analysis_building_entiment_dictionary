@@ -34,27 +34,30 @@ Language : Python
 
 - 감성사전의 카테고리(호텔속성)를 도출하기 위하여 LDA분석을 하였으나 무의미하게 나타남
 
-![Slide15.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5925d49f-8971-4306-9aae-d88f2f4241cf/Slide15.jpg)
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/9ebc57b9-72f1-4c84-a944-9ffa4d9c19e4)
+
 
 - Fasttext로 임베딩한 후, K-Mean로 군집분석 시 토픽이 유의미하게 선정
     - 토픽을 감성사전 카테고리로 선정
 
-![Slide19.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf66c043-dd71-4968-b443-89d972c0ba17/Slide19.jpg)
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/1d72c424-d2c4-4860-95d0-38ff5386d491)
 
-![Slide20.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ece3d53-113c-4af8-9a19-4594b07770eb/Slide20.jpg)
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/69e894a5-b598-407f-983a-00b12dfbaede)
 
-![Slide21.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68818240-1cb0-49a1-9986-0283af499f7d/Slide21.jpg)
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/6919563b-5d42-4bfe-ac4b-a5dda15d61be)
+
 
 - 평가모델 구축
     - 나이브 베이즈 클래스 함수에서  P(단어|긍정), P(단어|부정)확률값을 추출
     - 베이즈정리를 활용: P(긍정|단어)의 추정치 = P(단어|긍정), P(부정|단어)의 추정치 = P(단어|부정)
     - 긍정 리뷰 평가 시, 카테고리에 속하는 단어가 리뷰에 존재한다면 해당 카테고리 Dictionary에  P(단어|긍정)을 더해줌 (부정 리뷰 평가 시에도 동일)
 
-![Slide24.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b79d5287-f2a6-4695-9c6d-36e31ad34ded/Slide24.jpg)
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/f858b085-64e6-484a-9e36-ea63d0e9416d)
 
 - 평가모델 적용 결과(제주 호텔 11개)
     
-    ![Slide25.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94e6724e-728b-470d-bdf2-39f6f57a6dbc/Slide25.jpg)
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/851bdbde-2915-4bf1-94c0-1848dd8e8b3a)
+
     
 
 - 추천시스템
