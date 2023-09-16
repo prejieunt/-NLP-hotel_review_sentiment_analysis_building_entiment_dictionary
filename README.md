@@ -29,7 +29,8 @@ Language : Python
     - 트립어드바이저 평점기준으로 긍정(4 ~ 5점), 부정(1 ~ 3점)리뷰 분류,  부킹닷컴 손가락 이모티콘기준으로 긍정(👍), 부정(👎)리뷰 분류
     - 로지스틱 회귀 분석을 통하여 각 단어들의 긍정성/부정성을 판별
 
-![Slide14.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c6bd93e-fcdc-47d0-ae81-5f3fe6c9e79c/Slide14.jpg)
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/02b78811-db81-4b02-81fc-45e45de75829)
+
 
 - 감성사전의 카테고리(호텔속성)를 도출하기 위하여 LDA분석을 하였으나 무의미하게 나타남
 
