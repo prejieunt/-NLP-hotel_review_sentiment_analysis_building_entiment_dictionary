@@ -1,4 +1,4 @@
-![image](https://github.com/prejieunt/hotel_review/assets/144317936/e582d0d2-90db-4ace-bc9d-45bbe09939bd)
+
 ## 감성사전 기반 맞춤형 제주도 호텔 추천 시스템(2023)
 
  **✔️ 개요**
