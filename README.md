@@ -1,4 +1,4 @@
-
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/e582d0d2-90db-4ace-bc9d-45bbe09939bd)
 ## 감성사전 기반 맞춤형 제주도 호텔 추천 시스템(2023)
 
  **✔️ 개요**
@@ -51,6 +51,8 @@ Language : Python
     - 나이브 베이즈 클래스 함수에서  P(단어|긍정), P(단어|부정)확률값을 추출
     - 베이즈정리를 활용: P(긍정|단어)의 추정치 = P(단어|긍정), P(부정|단어)의 추정치 = P(단어|부정)
     - 긍정 리뷰 평가 시, 카테고리에 속하는 단어가 리뷰에 존재한다면 해당 카테고리 Dictionary에  P(단어|긍정)을 더해줌 (부정 리뷰 평가 시에도 동일)
+      
+![image](https://github.com/prejieunt/hotel_review/assets/144317936/d6aa49cf-2db1-473b-94f2-333b5f91f55b)
 
 ![image](https://github.com/prejieunt/hotel_review/assets/144317936/f858b085-64e6-484a-9e36-ea63d0e9416d)
 
